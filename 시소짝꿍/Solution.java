@@ -22,7 +22,6 @@ class Solution {
           
             //만약에 map에 없으면 0넣고 있다면 현재 value에 하나 더해줌
             //더해줌으로써 중복은 이제 한쌍이 되어 하나에게 바로 두짝이 만들어짐
-            //3개중복이면 바로 3쌍이 되니 오히려좋아
             map.put((double)w1,map.getOrDefault((double)w1,0)+1); 
             map.put((double)w2,map.getOrDefault((double)w2,0)+1);
             map.put((double)w3,map.getOrDefault((double)w3,0)+1);
