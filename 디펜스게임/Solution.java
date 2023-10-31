@@ -5,7 +5,7 @@ class Solution {
     public int solution(int n, int k, int[] enemy) {
         int answer = 0;
         
-        //적군 수만 넣어
+        //적군 수만 넣어줌
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
         //우선순위큐로 집어넣고 poll할때마다 카드를 썻다는 소리 모든 적군을 둘러볼동안
         //아군
